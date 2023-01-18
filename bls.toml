@@ -1,4 +1,4 @@
-name = "template_name"
+name = "test-temp-2"
 version = "1.0.0"
 
 [deployment]
@@ -7,10 +7,10 @@ nodes = 1
 
 [build]
 dir = "build"
-entry = "template_name_debug.wasm"
+entry = "test-temp-2_debug.wasm"
 command = "npm run build:debug"
 
 [build_release]
 dir = "build"
-entry = "template_name.wasm"
+entry = "test-temp-2.wasm"
 command = "npm run build:release"
